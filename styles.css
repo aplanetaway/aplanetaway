@@ -102,7 +102,7 @@ img {
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
-  max-width: 100%;
+  max-width: 80%;
   margin:auto;
 }
 
