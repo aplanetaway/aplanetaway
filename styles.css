@@ -79,6 +79,12 @@
 
   }
 
+  .title {
+    transform: skew(-13deg);
+    -webkit-transform: skew(-13deg);
+
+  }
+
 
 
  p {
