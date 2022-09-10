@@ -106,8 +106,17 @@ img {
   margin:auto;
 }
 
+.container2 {
+  position: relative;
+  max-width: 80%;
+  margin:auto;
+}
 /* Hide the images by default */
 .mySlides {
+  display: none;
+}
+
+.mySlides2 {
   display: none;
 }
 
