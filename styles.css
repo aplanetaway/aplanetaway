@@ -77,12 +77,6 @@
     font-size: 18px;
   }
 
-  .title {
-    transform: skew(-13deg);
-    -webkit-transform: skew(-13deg);
-
-  }
-
 
  p {
     text-align: center;
