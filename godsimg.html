@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>a planet away</title>
+
+</head>
+
+
+
+<body>
+  
+    <div class="logo">
+        a planet away
+    </div>
+    
+    <nav>
+      <ul>
+      <li><a href="index.html">home</a> </li>
+      <li><a href="media.html">media</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>  
+  </nav>
+
+
+
+   <div class="container">
+    <div class="mySlides">
+      
+      <img src="photos/free3s.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      
+      <img src="photos/free2s.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+     
+      <img src="photos/free1s.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+     
+        <img src="photos/kray1s.jpg" style="width:100%">
+      </div>
+      <div class="mySlides">
+     
+        <img src="photos/kray2s.jpg" style="width:100%">
+      </div>
+      <div class="mySlides">
+     
+        <img src="photos/kray3s.jpg" style="width:100%">
+      </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  
+  
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="photos/free3s.jpg" style="width:100%" onclick="currentSlide(1)" alt="photo1">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="photos/free2s.jpg" style="width:100%" onclick="currentSlide(2)" alt="photo2">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="photos/free1s.jpg" style="width:100%" onclick="currentSlide(3)" alt="photo3">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="photos/kray1s.jpg" style="width:100%" onclick="currentSlide(4)" alt="photo4">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="photos/kray2s.jpg" style="width:100%" onclick="currentSlide(5)" alt="photo5">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="photos/kray3s.jpg" style="width:100%" onclick="currentSlide(6)" alt="photo6">
+      </div>
+
+    </div>
+    
+</div>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("demo");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+ </script>
+
+         
+   
+</body>
+
+
+
+</html>
