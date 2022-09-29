@@ -47,6 +47,8 @@ h2 {
 
 }
 
+/*enter button*/
+
 .button {
   background-color: black;
   color: white;
@@ -116,7 +118,6 @@ h2 {
     font-family: arlbld;
     color: white;
     font-size: 18px;
-
     }
 
 
@@ -192,7 +193,7 @@ img {
   clear: both;
 }
 
-/* Six columns side by side */
+/*three columns side by side */
 .column {
   float: left;
   width: 33.33%;
