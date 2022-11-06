@@ -10,19 +10,19 @@ body {
   background-color: black;
   font-family: arlbld;
   color: white;
+  
 }
 
 /* logo appearance */
 
-img {
-max-width: 40%;
-max-height: 40%;
+.logo {
+max-width: 60%;
+max-height: 60%;
 display: block;
 margin-left: auto;
 margin-right: auto;
 
 }
-
 
 /*enter button*/
 
