@@ -32,7 +32,8 @@ body {
 
 header {
   display: block;
-  padding-bottom: 12px;
+  padding-bottom: 24px;
+ 
   
 }
 
@@ -40,8 +41,7 @@ header {
 
 header img {
   height: 180px;
- 
-  
+
 }
 
 
@@ -81,7 +81,7 @@ nav a:hover {
 
 
 p {
-  padding-top: 36px;
+  
   text-align: center;
 }
 
