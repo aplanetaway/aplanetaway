@@ -24,27 +24,32 @@ html {
 /* body style */
 
 body {
-  text-align: center;
+  
+  margin: 0px;
+  padding: 0px;
+  
 }
 
+p {
+  text-align: center;
+}
 
 /* header */
 
 header {
   display: block;
-  padding-bottom: 24px;
+  margin-bottom: 12px;
+  border: solid red;
  
-  
 }
 
 /* logo appearance */
 
-header img {
+.logo {
   height: 180px;
-
+  display: inline-block;
+ 
 }
-
-
 
 /* nav */
 
@@ -52,19 +57,18 @@ nav {
   color: white;
   font-size: 18px;
   
-  
 }
 
 nav ul { 
   list-style-type: none;
+  display:inline-block;
+  vertical-align:top;
 }
 
 nav li  { 
   display: inline; 
   margin: 5px;
 }
-
-
 
 /* nav links */
 
@@ -81,8 +85,9 @@ nav a:hover {
 
 
 p {
-  
-  text-align: center;
+  border: solid red;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
 }
 
 
