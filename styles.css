@@ -23,7 +23,10 @@ html {
 
 /* body style */
 
-
+body {
+  margin: 0px;
+  padding: 0px;
+}
 
 /* header */
 
@@ -49,7 +52,7 @@ nav {
   color: white;
   font-size: 18px;
   float: right;
-  padding-top: 90px;
+  padding-top: 80px;
   padding-right: 12px;
   
   
@@ -81,7 +84,7 @@ nav a:hover {
 
 
 p {
-  border: solid red;
+  border: solid greenyellow;
   text-align: center;
 }
 
