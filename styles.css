@@ -25,7 +25,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 8px;
-    margin: 0;
+    margin: 8px;
     border: 12px solid yellow;
 }
 
@@ -52,6 +52,7 @@ nav ul {
     align-items: center;
     border: 12px solid orange;
     gap: 8px;
+    height:100vh;
 }
 
 .content img {
