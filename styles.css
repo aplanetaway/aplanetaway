@@ -20,16 +20,14 @@
 }
 
 .header {
+    width: 90vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#logo {
-    
+#logo { 
     width: 160px; 
-    margin-left: 96px; 
-    
 }
 
 nav {
@@ -37,8 +35,6 @@ nav {
 }
 
 nav ul {
-    padding-right: 150px;
-    margin: 0;
     display: flex;
     gap: 12px;
     list-style: none;
