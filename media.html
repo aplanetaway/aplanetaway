@@ -10,7 +10,10 @@
 
 <body>
     <div class="header">
+      <a href="index.html">
         <img id="logo" src="photos/logo.png" alt="logo">
+      </a>
+
         <nav>
           <ul>
             <li><a href="index.html">home</a> </li>
@@ -23,8 +26,34 @@
     <div class="content">
 
       <a href="godsimg.html">
-        <img src="photos/free3small.jpg"  alt="social media management">
-      </a>
+        <script>
+        var i = 0; //start
+        var images = [];
+        var time = 2000;
+       
+       //image list
+        images [0] = "photos/free3s.jpg";
+        images [1] = "photos/kray2s.jpg";
+        images [2] = "photos/free2s.jpg";
+       
+       // change image
+        function changeImg (){
+           document.slide.src = images[i];
+       
+           if(i < images.length - 1){
+               i++;
+           } else {
+               i = 0;
+           }
+       
+           setTimeout("changeImg()", time);
+       }
+       
+        window.onload = changeImg;
+       </script>
+       
+        <img name="slide"   alt="photography">
+     </a>
       
       <a href="thedrop.html">
         <img src="photos/drop.png"  alt="social media management">

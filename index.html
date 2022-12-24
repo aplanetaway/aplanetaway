@@ -11,8 +11,11 @@
 <body>
 
     <div class="header">
-      <img id="logo" src="photos/logo.png" alt="logo">
 
+      <a href="index.html">
+      <img id="logo" src="photos/logo.png" alt="logo">
+      </a>
+      
       <nav>
       <ul>
         <li><a href="index.html">home</a> </li>
@@ -24,42 +27,18 @@
     </div>
 
     <div class="content">
-      <a href="godsimg.html">
-        <script>
-        var i = 0; //start
-        var images = [];
-        var time = 2000;
-       
-       //image list
-        images [0] = 'photos/free3s.jpg';
-        images [1] = 'photos/kray2s.jpg';
-        images [2] = 'photos/free2s.jpg';
-       
-       // change image
-        function changeImg (){
-           document.slide.src = images[i];
-       
-           if(i < images.length - 1){
-               i++;
-           } else {
-               i = 0;
-           }
-       
-           setTimeout("changeImg()", time);
-       }
-       
-        window.onload = changeImg;
-       </script>
-       
-        <img name="slide"   alt="photography">
-     </a>
+
+     <p class="center">
+      share your story; we will help <br>
+      welcome to a world of your own
+     </p>
     </div>
     
     <footer>
-        
-        a planet away 
-        <span>&#169;</span>
 
+      <p> a planet away 
+      <span>&#169;</span>
+      </p>
 
     </footer>
 
