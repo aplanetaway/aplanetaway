@@ -15,6 +15,7 @@
     background-color: black;
     color: white;
     min-height: 100vh;
+    
 }
 
 .header {
@@ -34,15 +35,23 @@
 }
 
 nav {
+    
     margin-right: 10vw;
   
 }
 
+.active {
+    border: 8px solid white;
+    padding: 6px;
+}
 nav ul {
     display: flex;
+    align-items: center;
     gap: 12px;
     list-style: none;
 }
+
+
 
 .content {
     /*border: 8px solid peachpuff;*/
