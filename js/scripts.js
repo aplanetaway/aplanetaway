@@ -16,7 +16,7 @@ if (document.readyState == 'loading') {
 // change image
 function changeImg (){
     const time = 2000;
-    const  photos = [];
+    const photos = [];
     let i = 0; //start
 
     //image list
